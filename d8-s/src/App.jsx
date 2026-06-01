@@ -146,7 +146,7 @@ function YesScreen() {
         </div>
 
         <div style={{ display:'flex', gap:'0.4rem', justifyContent:'center', fontSize:'2.5rem', animation:'wiggle 1.2s ease-in-out infinite' }}>
-          {'💖💕💗💕💖'.split('').map((e,i) => <span key={i}>{e}</span>)}
+          {['💖','💕','💗','💕','💖'].map((e,i) => <span key={i}>{e}</span>)}
         </div>
       </div>
     </div>
